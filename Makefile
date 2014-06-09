@@ -105,6 +105,7 @@ clean:
 	-rm -rf ./build/susi/usr/share/susi/*
 	-rm -rf ./dev/cert.pem ./dev/key.pem
 	-rm -rf $(COMPILED_JADEFILES)
+	-rm -rf ./templates/templates.js
 
 ############
 # Compile jade file
